@@ -10,9 +10,7 @@ npm install -D @babel/preset-react @babel/preset-typescript @babel/preset-env
 npm install -D identity-obj-proxy
 
 
-#########################
-react-app/babel.config.js
--------------------------
+# react-app/babel.config.js
 module.exports = {
   presets: [
     [
@@ -29,15 +27,11 @@ module.exports = {
 };
 
 
-#######################
-react-app/jest-setup.ts
------------------------
+# react-app/jest-setup.ts
 import "@testing-library/jest-dom"
 
 
-######################
-react-app/package.json
-----------------------
+# react-app/package.json
 {
    "scripts": {
     ...
@@ -63,9 +57,7 @@ react-app/package.json
 }
 
 
-##########################
-react-app/src/App.test.tsx
---------------------------
+# react-app/src/App.test.tsx
 it("this jest is working",()=>{
     expect(true).toBe(true)
 })
@@ -73,7 +65,5 @@ const a = 2
 export default a;
 
 
-###
-run
----
+# run the following command to test (ii should pass)
 npm test -- --coverage   
