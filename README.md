@@ -70,7 +70,7 @@ const a = 2
 export default a;
 ```
 
-# run the following command to test (ii should pass)
+# run the following command to test (it will pass)
 ```
 npm test -- --coverage   
 ```
