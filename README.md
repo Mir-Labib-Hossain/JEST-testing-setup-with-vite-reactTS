@@ -2,7 +2,7 @@
 
 src: https://egghead.io/lessons/jest-intro-to-confidently-testing-redux-applications-with-jest-typescript
 
-run
+# run
 npm install --save-dev jest-environment-jsdom
 npm install -D jest                          
 npm install -D @testing-library/react @testing-library/jest-dom @testing-library/user-event
